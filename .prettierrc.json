@@ -1,25 +1,30 @@
 {
-  "$schema": "https://json.schemastore.org/prettierrc",
-  "arrowParens": "avoid",
-  "bracketSpacing": true,
-  "htmlWhitespaceSensitivity": "ignore",
-  "insertPragma": false,
-  "printWidth": 80,
-  "proseWrap": "always",
-  "quoteProps": "as-needed",
-  "requirePragma": false,
-  "semi": true,
-  "singleQuote": true,
-  "tabWidth": 2,
-  "trailingComma": "es5",
-  "useTabs": false,
-  "endOfLine": "auto",
-  "overrides": [
-    {
-      "files": "*.html",
-      "options": {
-        "parser": "html"
-      }
-    }
-  ]
+	"$schema": "https://json.schemastore.org/prettierrc",
+	"printWidth": 80,
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": true,
+	"singleQuote": false,
+	"quoteProps": "as-needed",
+	"jsxSingleQuote": false,
+	"trailingComma": "all",
+	"bracketSpacing": true,
+	"bracketSameLine": false,
+	"arrowParens": "always",
+	"requirePragma": false,
+	"insertPragma": false,
+	"proseWrap": "always",
+	"htmlWhitespaceSensitivity": "ignore",
+	"vueIndentScriptAndStyle": false,
+	"endOfLine": "auto",
+	"embeddedLanguageFormatting": "auto",
+	"singleAttributePerLine": true,
+	"overrides": [
+		{
+			"files": "*.html",
+			"options": {
+				"parser": "html"
+			}
+		}
+	]
 }

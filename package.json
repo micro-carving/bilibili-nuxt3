@@ -1,20 +1,32 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "prettier": "prettier --write src/"
-  },
-  "dependencies": {
-    "nuxt": "^3.12.4",
-    "vue": "latest"
-  },
-  "devDependencies": {
-    "prettier": "^3.3.3"
-  }
+	"name": "bilibili-nuxt-app",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/micro-carving/bilibili-nuxt3.git"
+	},
+	"license": "GPL-3.0-only",
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"prettier": "prettier --write \"{assets,components,layouts,pages,server}/**/*.{ts,js,css,less,scss,json,vue,jsx,tsx}\" \"app.vue\" \"nuxt.config.{js,ts}\" \"package.json\""
+	},
+	"dependencies": {
+		"nuxt": "^3.12.4",
+		"vue": "latest"
+	},
+	"devDependencies": {
+		"@vant/nuxt": "^1.0.5",
+		"postcss-px-to-viewport": "^1.1.1",
+		"prettier": "^3.3.3"
+	},
+	"packageManager": "pnpm@8.11.0",
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"version": "1.0.0"
 }

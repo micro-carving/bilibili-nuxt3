@@ -1,8 +1,43 @@
 {
-  "cSpell.words": [
-    "Bilibili",
-    "Gitee",
-    "Nuxt",
-    "Vant"
-  ]
+	"cSpell.words": [
+		"Bilibili",
+		"Gitee",
+		"nuxi",
+		"Nuxt",
+		"Parens",
+		"qrcode",
+		"Vant"
+	],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"prettier.requireConfig": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[less]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsx]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[tsx]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnType": true,
+	"prettier.configPath": ".prettierrc.json"
 }
