@@ -1,0 +1,5 @@
+/* 显示定义样式优先级，用于覆盖 vant 定义的样式变量 */
+/* https://vant-ui.github.io/vant/#/zh-CN/config-provider */
+:root:root {
+	--van-primary-color: #fb7299;
+}

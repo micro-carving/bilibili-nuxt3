@@ -1,6 +1,4 @@
 <template>
-	<NuxtLink to="/">去首页</NuxtLink>
-	<NuxtLink to="/video/1">去视频页</NuxtLink>
 	<NuxtPage />
 </template>
 
@@ -13,4 +11,9 @@ useSeoMeta({
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+// @import "~/assets/styles/reset.scss";
+// @import "~/assets/styles/iconfont.scss";
+@import "./assets/styles/reset.scss";
+@import "./assets/styles/iconfont.scss";
+</style>

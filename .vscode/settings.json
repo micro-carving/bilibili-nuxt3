@@ -1,16 +1,21 @@
 {
 	"cSpell.words": [
 		"Bilibili",
+		"bofangshu",
+		"danmushu",
 		"Gitee",
+		"iconfont",
 		"nuxi",
 		"Nuxt",
 		"Parens",
 		"qrcode",
+		"shipin",
 		"Vant"
 	],
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
-	"prettier.requireConfig": true,
+	"editor.codeActionsOnSave": { "source.organizeImports": "always" },
+	"editor.formatOnType": true,
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -38,6 +43,6 @@
 	"[tsx]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"editor.formatOnType": true,
-	"prettier.configPath": ".prettierrc.json"
+	"prettier.configPath": ".prettierrc.json",
+	"prettier.requireConfig": true
 }

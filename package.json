@@ -22,7 +22,8 @@
 	"devDependencies": {
 		"@vant/nuxt": "^1.0.5",
 		"postcss-px-to-viewport": "^1.1.1",
-		"prettier": "^3.3.3"
+		"prettier": "^3.3.3",
+		"sass": "^1.77.8"
 	},
 	"packageManager": "pnpm@8.11.0",
 	"engines": {
