@@ -38,7 +38,7 @@ Documentation address: TODO
 The project is currently hosted on both Gitee and Github platforms. Feel free to Star and Fork to support the project!
 
 - Gitee: [https://gitee.com/OlinOnee/bilibili-nuxt3](https://gitee.com/OlinOnee/bilibili-nuxt3.git)
-- Github: TODO
+- Github: [https://github.com/micro-carving/bilibili-nuxt3](https://github.com/micro-carving/bilibili-nuxt3.git)
 
 ### Project Preview
 TODO
