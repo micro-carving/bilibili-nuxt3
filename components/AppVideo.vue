@@ -1,32 +1,38 @@
 <template>
   <NuxtLink
     class="v-card"
-    :to="`/video/0`"
+    :to="`/video/${item.bvid}`"
   >
     <div class="card">
       <div class="card-img">
         <img
           class="pic"
-          src="@/assets/images/loading.png"
-          alt="当你觉得扛不住的时候来看看这段视频"
+          :src="item.pic"
+          :alt="item.title"
         />
       </div>
       <div class="count">
         <span>
           <i class="iconfont icon_shipin_bofangshu"></i>
-          676.2万
+          {{ item.stat.view }}
         </span>
         <span>
           <i class="iconfont icon_shipin_danmushu"></i>
-          1.6万
+          {{ item.stat.danmaku }}
         </span>
       </div>
     </div>
-    <p class="title">当你觉得扛不住的时候来看看这段视频</p>
+    <p class="title">{{ item.title }}</p>
   </NuxtLink>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import type { VideoItem } from "@/types/video";
+
+defineProps<{
+  item: VideoItem;
+}>();
+</script>
 
 <style lang="scss" scoped>
 .v-card {

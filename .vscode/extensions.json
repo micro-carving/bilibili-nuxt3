@@ -1,9 +1,10 @@
 {
-	"recommendations": [
-		"esbenp.prettier-vscode",
-		"nuxtr.nuxtr-vscode",
-		"nuxtr.nuxt-vscode-extentions",
-		"vue.volar",
-		"christian-kohler.path-intellisense"
-	]
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "nuxtr.nuxtr-vscode",
+    "nuxtr.nuxt-vscode-extentions",
+    "vue.volar",
+    "christian-kohler.path-intellisense",
+    "gregorbiswanger.json2ts"
+  ]
 }
