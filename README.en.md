@@ -16,7 +16,7 @@
 ### Project Directory
 
 ```shell
-├─.nuxt              Non-engineering code,存放运行或发行的编译结果
+├─.nuxt              Non-engineering code, store the compilation results of a run or release 
 ├─node_modules       Project dependencies
 ├─public             Website resource directory
 ├─server             API server directory

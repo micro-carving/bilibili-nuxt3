@@ -40,7 +40,7 @@
 目前项目托管在 Gitee 和 Github 平台上中，欢迎大家 Star 和 Fork 支持~
 
 - Gitee：[https://gitee.com/OlinOnee/bilibili-nuxt3](https://gitee.com/OlinOnee/bilibili-nuxt3.git)
-- Github：TODO
+- Github：[https://github.com/micro-carving/bilibili-nuxt3](https://github.com/micro-carving/bilibili-nuxt3.git)
 
 ### 项目预览
 TODO
