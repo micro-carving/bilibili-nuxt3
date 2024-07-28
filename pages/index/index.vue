@@ -28,10 +28,6 @@ import type { VideoItem } from "@/types/video";
 const { data: channelList } = await useFetch("/api/channel/list");
 const { data: videoList } = await useFetch("/api/video/list");
 
-useHead({
-  meta: [{ name: "referrer", content: "no-referrer" }],
-});
-
 const list = ref<VideoItem[]>([]);
 const loading = ref(false);
 const finished = ref(false);

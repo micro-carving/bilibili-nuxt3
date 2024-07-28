@@ -25,6 +25,7 @@ export interface VideoItem {
   type_id: number;
   tname: string;
   pic: string;
+  v_url: string;
   title: string;
   pubdate: number;
   ctime: number;
